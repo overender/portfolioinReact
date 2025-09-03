@@ -12,8 +12,8 @@ export const projects = [
     tech: ["JavaScript", "React", "Vite", "OpenWeather API"],
     category: "Frontend",
     links: {
-      demo: "https://your-username.github.io/weather-app/",
-      repo: "https://github.com/your-username/weather-app"
+      demo: "https://high-seas-weather-app.onrender.com",
+      repo: "https://github.com/overender/Weather-React-Project"
     },
     thumb: weatherThumb
   },
@@ -26,7 +26,7 @@ export const projects = [
     category: "Full Stack",
     links: {
       demo: null,
-      repo: "https://github.com/your-username/ecom-store"
+      repo: null,
     },
     thumb: ecomThumb
   },
@@ -38,8 +38,8 @@ export const projects = [
     tech: ["HTML", "CSS (Tailwind)", "JavaScript"],
     category: "Frontend",
     links: {
-      demo: "https://your-username.github.io/dom-bookstore/",
-      repo: "https://github.com/your-username/dom-bookstore"
+      demo: "https://overender.github.io/dom_bookstore/",
+      repo: "https://github.com/overender/dom_bookstore"
     },
     thumb: bookstoreThumb
   },
@@ -51,7 +51,7 @@ export const projects = [
     tech: ["Slides", "Storytelling"],
     category: "Presentation",
     links: {
-      demo: "https://docs.google.com/presentation/d/your-id/view",
+      demo: "https://docs.google.com/presentation/d/e/2PACX-1vRfpib9xeC5DRBcMPO_77IeaIdTxzu2vX_9fMh0bfcmR8-p0_XEV3pXw1xnXa7Xz1wap1JdeUmeiKuT/pub?start=false&loop=false&delayms=3000",
       repo: null
     },
     thumb: neckeaseThumb
