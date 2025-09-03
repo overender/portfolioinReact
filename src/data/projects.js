@@ -6,7 +6,7 @@ export const projects = [
     summary: "Responsive weather dashboard with geolocation, search, and 5-day forecast.",
     tech: ["JavaScript", "React", "Vite", "OpenWeather API"],
     category: "Frontend",            // add this
-    links: { demo: "#", repo: "#" }
+    links: { demo: "https://weather-react-project-xw3x.onrender.com", repo: "https://github.com/overender/Weather-React-Project" }
   },
   {
     id: "ecom-store",
@@ -24,7 +24,7 @@ export const projects = [
     summary: "Book catalog with GET/POST/DELETE, form handling, and local fallback for API outages.",
     tech: ["HTML", "CSS (Tailwind)", "JavaScript"],
     category: "Frontend",            // add this
-    links: { demo: "#", repo: "#" }
+    links: { demo: "https://overender.github.io/dom_bookstore/", repo: "https://github.com/overender/dom_bookstore" }
   },
   {
     id: "neckease-deck",
@@ -33,6 +33,6 @@ export const projects = [
     summary: "Slide deck for a salon neck support concept: problem framing, user research, and GTM.",
     tech: ["Slides", "Storytelling"],
     category: "Presentation",        // add this
-    links: { demo: "#", repo: null }
+    links: { demo: "https://docs.google.com/presentation/d/e/2PACX-1vRfpib9xeC5DRBcMPO_77IeaIdTxzu2vX_9fMh0bfcmR8-p0_XEV3pXw1xnXa7Xz1wap1JdeUmeiKuT/pub?start=false&loop=false&delayms=3000", repo: null }
   }
 ];

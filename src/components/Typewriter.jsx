@@ -6,9 +6,8 @@ export default function Typewriter({ text = "", speed = 45, loop = false, classN
   const timerRef = useRef(null);
 
   useEffect(() => {
-    // Reset when text changes
-    setDisplay("");
-    idxRef.current = 0;
+    setDisplay("");       // reset display string
+    idxRef.current = 0;   // reset index
 
     function tick() {
       if (idxRef.current < text.length) {
@@ -16,7 +15,6 @@ export default function Typewriter({ text = "", speed = 45, loop = false, classN
         idxRef.current += 1;
         timerRef.current = setTimeout(tick, speed);
       } else if (loop) {
-        // small pause then restart
         timerRef.current = setTimeout(() => {
           setDisplay("");
           idxRef.current = 0;
@@ -24,7 +22,10 @@ export default function Typewriter({ text = "", speed = 45, loop = false, classN
         }, 1200);
       }
     }
-    tick();
+
+    //  small delay so first letter isn’t swallowed
+    timerRef.current = setTimeout(tick, speed);
+
     return () => timerRef.current && clearTimeout(timerRef.current);
   }, [text, speed, loop]);
 

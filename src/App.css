@@ -446,7 +446,9 @@ button {
 }
 
 .project-grid {
-display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* always 2 columns */
+  gap: 1.5rem;
 }
 
 .project-card:hover {
@@ -636,8 +638,11 @@ a { color: #f7c59f; }
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
 }
-@media (max-width: 480px) {
-  .project-grid { grid-template-columns: 1fr; }
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr; /* stack on smaller screens */
+  }
 }
 
 /* Better focus states for keyboard users */
