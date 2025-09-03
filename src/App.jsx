@@ -26,11 +26,6 @@ function ProjectCard({ p }) {
         <p className="project-summary">{p.summary}</p>
         <TechChips items={p.tech} />
         <UrlCard demo={p.links?.demo} repo={p.links?.repo} thumb={p.thumb} />
-
-        <div className="project-links">
-          {p.links.demo && <a className="btn" href={p.links.demo} target="_blank" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i> Live</a>}
-          {p.links.repo && <a className="btn ghost" href={p.links.repo} target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i> Code</a>}
-        </div>
       </div>
     </article>
   );
