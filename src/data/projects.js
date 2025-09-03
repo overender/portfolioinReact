@@ -6,7 +6,7 @@ export const projects = [
     summary: "Responsive weather dashboard with geolocation, search, and 5-day forecast.",
     tech: ["JavaScript", "React", "Vite", "OpenWeather API"],
     category: "Frontend",            // add this
-    links: { demo: "https://weather-react-project-xw3x.onrender.com", repo: "https://github.com/overender/Weather-React-Project" }
+    links: { demo: "https://high-seas-weather-app.onrender.com", repo: "https://github.com/overender/Weather-React-Project" }
   },
   {
     id: "ecom-store",
