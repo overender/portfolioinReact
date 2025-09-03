@@ -1,0 +1,38 @@
+export const projects = [
+  {
+    id: "weather-app",
+    title: "Weather App",
+    period: "2025",
+    summary: "Responsive weather dashboard with geolocation, search, and 5-day forecast.",
+    tech: ["JavaScript", "React", "Vite", "OpenWeather API"],
+    category: "Frontend",            // add this
+    links: { demo: "#", repo: "#" }
+  },
+  {
+    id: "ecom-store",
+    title: "E-commerce Store",
+    period: "2025",
+    summary: "Full-stack e-commerce with product catalog, cart, and admin panel. (In progress).",
+    tech: ["React", "Node/Express", "MongoDB", "Cloudinary"],
+    category: "Full Stack",          // add this
+    links: { demo: "#", repo: "#" }
+  },
+  {
+    id: "dom-bookstore",
+    title: "DOM Bookstore",
+    period: "2025",
+    summary: "Book catalog with GET/POST/DELETE, form handling, and local fallback for API outages.",
+    tech: ["HTML", "CSS (Tailwind)", "JavaScript"],
+    category: "Frontend",            // add this
+    links: { demo: "#", repo: "#" }
+  },
+  {
+    id: "neckease-deck",
+    title: "NeckEase – Pitch Deck",
+    period: "2025",
+    summary: "Slide deck for a salon neck support concept: problem framing, user research, and GTM.",
+    tech: ["Slides", "Storytelling"],
+    category: "Presentation",        // add this
+    links: { demo: "#", repo: null }
+  }
+];
