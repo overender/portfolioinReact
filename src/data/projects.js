@@ -1,3 +1,8 @@
+import weatherThumb from '../assets/projects/weather-app.png';
+import ecomThumb from '../assets/projects/ecom.png';
+import bookstoreThumb from '../assets/projects/bookstore.png';
+import neckeaseThumb from '../assets/projects/neckease.png';
+
 export const projects = [
   {
     id: "weather-app",
@@ -5,8 +10,12 @@ export const projects = [
     period: "2025",
     summary: "Responsive weather dashboard with geolocation, search, and 5-day forecast.",
     tech: ["JavaScript", "React", "Vite", "OpenWeather API"],
-    category: "Frontend",            // add this
-    links: { demo: "https://high-seas-weather-app.onrender.com", repo: "https://github.com/overender/Weather-React-Project" }
+    category: "Frontend",
+    links: {
+      demo: "https://your-username.github.io/weather-app/",
+      repo: "https://github.com/your-username/weather-app"
+    },
+    thumb: weatherThumb
   },
   {
     id: "ecom-store",
@@ -14,8 +23,12 @@ export const projects = [
     period: "2025",
     summary: "Full-stack e-commerce with product catalog, cart, and admin panel. (In progress).",
     tech: ["React", "Node/Express", "MongoDB", "Cloudinary"],
-    category: "Full Stack",          // add this
-    links: { demo: "#", repo: "#" }
+    category: "Full Stack",
+    links: {
+      demo: null,
+      repo: "https://github.com/your-username/ecom-store"
+    },
+    thumb: ecomThumb
   },
   {
     id: "dom-bookstore",
@@ -23,8 +36,12 @@ export const projects = [
     period: "2025",
     summary: "Book catalog with GET/POST/DELETE, form handling, and local fallback for API outages.",
     tech: ["HTML", "CSS (Tailwind)", "JavaScript"],
-    category: "Frontend",            // add this
-    links: { demo: "https://overender.github.io/dom_bookstore/", repo: "https://github.com/overender/dom_bookstore" }
+    category: "Frontend",
+    links: {
+      demo: "https://your-username.github.io/dom-bookstore/",
+      repo: "https://github.com/your-username/dom-bookstore"
+    },
+    thumb: bookstoreThumb
   },
   {
     id: "neckease-deck",
@@ -32,7 +49,11 @@ export const projects = [
     period: "2025",
     summary: "Slide deck for a salon neck support concept: problem framing, user research, and GTM.",
     tech: ["Slides", "Storytelling"],
-    category: "Presentation",        // add this
-    links: { demo: "https://docs.google.com/presentation/d/e/2PACX-1vRfpib9xeC5DRBcMPO_77IeaIdTxzu2vX_9fMh0bfcmR8-p0_XEV3pXw1xnXa7Xz1wap1JdeUmeiKuT/pub?start=false&loop=false&delayms=3000", repo: null }
+    category: "Presentation",
+    links: {
+      demo: "https://docs.google.com/presentation/d/your-id/view",
+      repo: null
+    },
+    thumb: neckeaseThumb
   }
 ];
