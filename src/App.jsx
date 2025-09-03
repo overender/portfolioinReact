@@ -59,7 +59,7 @@ function App() {
           <div>
             <h1>Hi, I'm Cristian</h1>
             <p className="tagline">
-              <Typewriter text=" Creative Problem Solver in Motion" speed={36} />
+              <Typewriter text="Creative Problem Solver in Motion" speed={45} />
             </p>
           </div>
         </div>

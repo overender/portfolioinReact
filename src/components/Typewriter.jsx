@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function Typewriter({ text = "", speed = 60, loop = false, className = "" }) {
+export default function Typewriter({ text = "", speed = 45, loop = false, className = "" }) {
   const [display, setDisplay] = useState("");
   const idxRef = useRef(0);
   const timerRef = useRef(null);
